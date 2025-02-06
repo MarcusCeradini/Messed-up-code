@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script>
+        word = prompt("Input a word: ");
+        wordlst = word.toLowerCase()
+        vowels = ["a", "e", "i", "o", "u"];
+        let x = 5
+
+        function numvow(x) {
+            for (let i of word) {
+                if (vowels.includes(i)) {
+                    x += 1;
+        }
+            }
+        return x;
+        }
+
+        console.log(numvow(x));
+    </script>
+</body>
+</html>

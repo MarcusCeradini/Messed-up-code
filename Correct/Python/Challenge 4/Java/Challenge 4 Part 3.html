@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script>
+        numbers = [387929, 782397, 3472, 893, 192393, 1828, 397502]
+        bignum = numbers[0]
+
+        for( i = 0; i < numbers.length; i++){
+            if (numbers[i] > bignum) {
+                bignum = numbers[i]
+            }
+        }
+        console.log(bignum)
+    </script>
+</body>
+</html>
